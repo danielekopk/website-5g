@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Tím</title>
+    <meta charset="UTF-8">
+	<meta name="description" content="5G">
+    <meta name="keywords" content="Tím (5).html">
+    <meta name="author" content="Daniel Ondrejkovič">
+    <link rel="stylesheet" type="text/css" href="css (6).css">
+	<meta name="viewport"content="width=device-width, initial-scale=1.0">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body>
+<div class = "sun"></div>
+<nav id="navbar" class="horizontal-navbar">
+<ul class="nav-list">   
+  <li><a href="Tím (5).html">Tím</a></li>
+  <li><a href="index (1).html#themes">Témy</a></li>    
+ </ul>            
+</nav> 
+
+<section id="h1-section" class="welcome-section">
+    <h1>Tím</h1>	
+</section>
+<br></br>
+<section>
+	<dl>
+        <dt><img class="dl" id="object-position" src="https://img.pixers.pics/pho_wat(s3:700/FO/67/32/92/05/700_FO67329205_df1ca22f60518918b64d05b25a0462c1.jpg,290,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,70,650,jpg)/fototapety-vesely-clovek-kresleny-ilustracni.jpg.jpg" alt="ondrejkovič"></dt>
+        <dd style="color: black;">
+             <a style="font-size: 30px; margin-top: 38.5%; color: blue">Daniel Ondrejkovič</a> <br>
+             <a style="font-size: 25px; margin-top: 38.5%; color: yellow">daniel.ondrejkovic@student.spseke.sk</a> <br>
+             <a style="font-size: 25px; margin-top: 38.5%; color: orange">0 910 761 121</a> <br>			 
+			 <a style="font-size: 25px; margin-top: 38.5%; color: green">tenis, futbal, hokej, filmy, hudba</a> <br>
+        </dd>
+   </dl>
+	
+</section>
+</body>	
+
+<script>
+        $(function(){
+    $("dd").slideUp();
+    $("dt").click(function(){
+        $(this).parent().find("dd").fadeToggle();
+        $(this).next().not(":visible").slideDown();
+    });
+    });
+</script>
+
+<footer>
+    <p>&copy; 2022 Daniel Ondrejkovič</p>
+</footer>
+
+</html>
+               
+            
+       
+   
+    
+	
